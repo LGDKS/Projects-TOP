@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* TODO solve flexbox alignment */
+.hero {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    height: auto;
+    
+}
+
+/* NAVBAR */ 
+.navbar {
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.navbar>*:first-child {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+    
+    
+}
+
+
+/* hero text */
+.hero-intro {
+    padding: 50px 0 50px;
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex: 1 1 auto;
+}
+
+.hero-intro-signup {
+width: 50%;
+
+}
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+/* TODO insert image and crop it to satisfy design*/
+img {
+    height: auto;
+    /* max-width: 650px;
+  min-width: 575px; */
+}
+
+button {
+    padding: 7px 20px;
+    background-color: deepskyblue;
+    color: floralwhite;
+    font-weight: bold;
+    border: none;
+    border-radius: 10%;
+}
+
+/* Random Information */
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-block-images {
+    display: flex;
+    gap: 20px;
+}
+
+.info-block-images p {
+    width: 120px;
+}
+.info-block-images-whole {
+    display: flex; 
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.rounded-box {
+    border: 2px solid blue;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
