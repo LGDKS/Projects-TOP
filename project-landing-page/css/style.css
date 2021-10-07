@@ -1,4 +1,9 @@
-/* Hello it's working */
+/* TODO make it max width 890px 
+- right now there's colored padding and only solution I can think of right now is adding one more div
+- with 890px it will be nicely centered as in picture 
+FIX then margin-right on header logo didn't work 
+I will have to probably rearrange flex properties
+*/
 
 body {
   margin: 0;
@@ -63,7 +68,7 @@ img {
 
 button {
   padding: 7px 20px;
-  background-color: deepskyblue;
+  background-color: #3882f6;
   color: floralwhite;
   font-weight: bold;
   border: none;
@@ -92,7 +97,7 @@ button {
 }
 
 .rounded-box {
-  border: 4px solid blue;
+  border: 4px solid #3882f6;
   padding: 20px;
   width: 100px;
   height: 100px;
@@ -128,17 +133,26 @@ button {
 
 /* Sign up Banner*/
 .signup-banner {
-  background-color: deepskyblue;
+  background-color: #3882f6;
   display: flex;
-  margin: 10%;
+  margin: 5% 10%;
+  padding: 40px;
   border-radius: 10px;
+  justify-content: space-around;
+}
+
+.signup-banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #e5e7eb;
 }
 .signup-banner button {
   border: 2px solid white;
 }
 
-.h3,
-p,
-button {
+.signup-banner-text h2,
+.signup-banner-text p {
   margin: 0;
 }
+
