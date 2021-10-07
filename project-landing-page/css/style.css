@@ -156,3 +156,16 @@ button {
   margin: 0;
 }
 
+/* Footer */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.footer p {
+  font-weight: lighter;
+}
