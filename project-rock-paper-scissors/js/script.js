@@ -1,20 +1,18 @@
 function computerPlay() {
-    const computerThrow = Math.floor((Math.random() * 3)+1);
+    const computerThrow = Math.floor((Math.random() * 3) + 1);
 
-    if  computerThrow == 1) {
+    if (computerThrow == 1) {
         return 'Rock';
-    } else if  computerThrow == 2) {
+    } else if (computerThrow == 2) {
         return 'Paper';
-    } else if  computerThrow == 3) {
+    } else if (computerThrow == 3) {
         return 'Scissors';
     } else { return 'Error: Computer doesn\'t wanna play anymore'; }
 }
 
-let playerSelection = function() { 
+let playerSelection = function () {
     let choice = prompt('Choose Rock, Paper or Scissors');
-    //TODO urobit z inputu capital + lowerCasse  napada ma pouzit index na prve pismenko
-    let output = choice[0].toUpperCase() + choice.slice(1);
-
+    let output = choice[0].toUpperCase() + choice.slice(1).toLowerCase();
 
     if (output == 'Rock') {
         return 'Rock';
@@ -27,6 +25,5 @@ let playerSelection = function() {
 }
 
 
-console.log(playerSelection());
 let computerSelection = computerPlay();
-console.log(computerSelection);
+
