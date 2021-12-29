@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+#board {
+  display: flex;
+  width: auto;
+  height: auto;
+  border: 1px solid red;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 5px;
+  height: 5px;
+  background-color: aquamarine;
+}
+
+.box:hover {
+  background-color: brown;
+}
