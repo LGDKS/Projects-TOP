@@ -15,7 +15,7 @@ function createBoard(number) {
     }
   }
 }
-createBoard(40);
+createBoard(10);
 addListener();
 
 //REMOVE
